@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    background-color: blueviolet;
+    background: linear-gradient(-29deg, #ee7752, #e73c7e, #FF66B2, #23d5ab);
+    background-size: 300% 700%;
+    animation: gradient 100s ease infinite;
 }
 
 ul {
@@ -9,10 +11,15 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+  
   }
   
   li {
-    float: left;
+    display: inline-block;
+    margin-left: 210px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
   }
   
   li a {
@@ -52,5 +59,77 @@ header{
     width: 100%;
     background-color: #333;
     color: white;
-    text-align: left;
+    text-align: center;
 }
+
+.homep{
+  font-size: 25px;
+  text-align: center;
+}
+
+.img1{
+  border: 5px solid;
+  position: fixed;
+  right: 660px;
+  bottom: 0;
+  top: 150px;
+  width: 30%;
+}
+
+table,th,td{border: 3px solid black;
+  border-collapse: collapse;
+  }
+  
+  
+  .table1{
+      table-layout: auto;
+      width: 1000px;
+      height: 350px;
+  }
+  
+  th{
+      background-color:seashell;
+  }
+  
+  
+  .ett{
+      
+      background-color: #23d5ab; 
+  } 
+  
+  .två{ 
+     background-color: #e73c7e; 
+     color: white;
+  }
+  
+  .tre{ 
+      background-color: #23d5ab;
+      color: black;
+  } 
+  
+  .fyra{ 
+      background-color: #e73c7e;
+      color:white
+  }
+  
+  .M{ 
+      text-align: center;
+  }
+  
+  .R{ 
+      text-align: right;
+  }
+
+  .lista{
+    text-align: center;
+  }
+  
+
+  .headerimg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 45px;
+    width: 140px; 
+    border: 3px solid black;
+  }
