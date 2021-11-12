@@ -81,55 +81,57 @@ table,th,td{border: 3px solid black;
   }
   
   
-  .table1{
-      table-layout: auto;
-      width: 1000px;
-      height: 350px;
-  }
+.table1{
+  table-layout: auto;
+  width: 1000px;
+  height: 350px;
+  margin-left: 450px;
+  margin-top: 100px;
+}
   
-  th{
-      background-color:seashell;
-  }
+th{
+  background-color:seashell;
+}
   
   
-  .ett{
+.ett{
       
-      background-color: #23d5ab; 
-  } 
+  background-color: #23d5ab; 
+} 
   
-  .två{ 
-     background-color: #e73c7e; 
-     color: white;
-  }
+.två{ 
+  background-color: #e73c7e; 
+    color: white;
+}
   
-  .tre{ 
-      background-color: #23d5ab;
-      color: black;
-  } 
+.tre{ 
+  background-color: #23d5ab;
+  color: black;
+} 
   
-  .fyra{ 
-      background-color: #e73c7e;
-      color:white
-  }
+.fyra{ 
+    background-color: #e73c7e;
+    color:white
+}
   
-  .M{ 
-      text-align: center;
-  }
+.M{ 
+  text-align: center;
+}
   
-  .R{ 
-      text-align: right;
+.R{ 
+    text-align: right;
   }
 
-  .lista{
-    text-align: center;
-  }
+.lista{
+  text-align: center;
+}
   
 
-  .headerimg{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 45px;
-    width: 140px; 
-    border: 3px solid black;
-  }
+.headerimg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 59px;
+  width: 159px; 
+  border: 3px solid black;
+}
