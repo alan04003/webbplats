@@ -93,37 +93,17 @@ th{
   background-color:seashell;
 }
   
-  
-.ett{
-      
-  background-color: #23d5ab; 
-} 
-  
-.två{ 
-  background-color: #e73c7e; 
-    color: white;
-}
-  
-.tre{ 
-  background-color: #23d5ab;
-  color: black;
-} 
-  
-.fyra{ 
-    background-color: #e73c7e;
-    color:white
-}
-  
-.M{ 
-  text-align: center;
-}
-  
-.R{ 
-    text-align: right;
-  }
 
-.lista{
-  text-align: center;
+tr:nth-child(odd) {
+background-color: #FF66B2;
+}
+
+tr:nth-child(even){
+  background-color: #23d5ab;
+}
+
+td:nth-child(even) {
+  text-align: right;
 }
   
 
