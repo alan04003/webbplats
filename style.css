@@ -7,16 +7,16 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
-  
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
   }
   
   li {
     display: inline-block;
-    margin-left: 210px;
+    margin-left: auto;
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
@@ -31,10 +31,14 @@ ul {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   
-  
   li a:hover {
     background-color: #111;
   }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
 
   .pasta{ 
     text-decoration: none;
@@ -69,24 +73,34 @@ header{
 
 .img1{
   border: 5px solid;
-  position: fixed;
-  right: 660px;
-  bottom: 0;
-  top: 150px;
+  position: static;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 30%;
+}
+
+.img2{
+  border: 5px solid;
+  position: static;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+  box-shadow: #333;
 }
 
 table,th,td{border: 3px solid black;
   border-collapse: collapse;
   }
   
-  
 .table1{
   table-layout: auto;
-  width: 1000px;
-  height: 350px;
-  margin-left: 450px;
-  margin-top: 100px;
+  width: 50%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
 }
   
 th{
@@ -105,7 +119,6 @@ tr:nth-child(even){
 td:nth-child(even) {
   text-align: right;
 }
-  
 
 .headerimg{
   position: fixed;
@@ -114,4 +127,26 @@ td:nth-child(even) {
   height: 59px;
   width: 159px; 
   border: 3px solid black;
+}
+
+/* Container för grid */
+#grid-layout {
+  display: grid;
+  grid-gap: 10px;
+}
+
+/* Olika areas */
+.cell {
+  padding: 0px;
+}
+.head {
+  grid-area: header;
+  background: #333;
+}
+.main {
+  grid-area: main;
+}
+.foot {
+  grid-area: footer;
+  background: #ebebeb;
 }
