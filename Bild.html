@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="sv"> <!-- Språket-->
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css"> <!-- länkar min css-->
     <title>Egen webbplats</title>
 </head>
 
 
 <body>
 
-    <div class="cell head">
+    <div class="cell head"> <!-- gör en box för grid (header)-->
         <header> 
-            <p style="margin: 0px;">Min hemsida</p>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIhZm8ivwSBIqlrG43methpPT2dUKUrQUQ9w&usqp=CAU" height="100" width="200" class="headerimg" >
+            <p style="margin: 0px;">Min hemsida</p> <!-- text i headern-->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIhZm8ivwSBIqlrG43methpPT2dUKUrQUQ9w&usqp=CAU" height="100" width="200" class="headerimg" > <!-- bild i headern som jag har sat en height och width på för att ändra storleken-->
         </header>
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Mat.html">God mat</a></li>
-            <li><a href="Jag.html">Alexander</a></li>
-            <li><a href="Bild.html">Hur man gör Pasta</a></li>
-            <li><a href="sista.html">Pizza</a></li>
+        <ul> <!-- skapar en lista -->
+            <li><a href="index.html">Home</a></li> <!-- skapar ett objekt i ul som man kan se i listan -->
+            <li><a href="Mat.html">God mat</a></li> <!-- skapar ett objekt i ul som man kan se i listan -->
+            <li><a href="Jag.html">Alexander</a></li> <!-- skapar ett objekt i ul som man kan se i listan -->
+            <li><a href="Bild.html">Hur man gör Pasta</a></li> <!-- skapar ett objekt i ul som man kan se i listan -->
+            <li><a href="sista.html">Pizza</a></li> <!-- skapar ett objekt i ul som man kan se i listan -->
         </ul>
     </div>
 
-      <p class="homep">↓↓↓↓↓↓↓↓↓↓↓↓TRYCK HÄR↓↓↓↓↓↓↓↓↓↓↓↓↓</p>
-      <a class="pasta" href="https://www.youtube.com/watch?v=AdBDLrFN4io">
-        <img class="img1" src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_186593/cf_259/pasta_alfredo.jpg"> 
-    </a>
+    <div class="cell main"> <!-- gör en box för grid (main)-->
+        <p class="homep">↓↓↓↓↓↓↓↓↓↓↓↓TRYCK HÄR↓↓↓↓↓↓↓↓↓↓↓↓↓</p> <!-- text i hemsidan som man kan se-->
+        <a class="pasta" href="https://www.youtube.com/watch?v=AdBDLrFN4io"> <!-- länkar till en youtube video-->
+        <img class="img1" src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_186593/cf_259/pasta_alfredo.jpg"> <!-- En bild som är i länken så när man trycker på den så kommer man till youtube videon-->
+        </a>
+    </div>
 
-    <footer>
-        <p>Alexander Andersson Te20c</p>
-    </footer>
+    <div class="cell foot"> <!-- gör en box för grid (footer)-->
+
+        <footer> <!-- lägger till en footer i botten av hemsidan-->
+            <p>Alexander Andersson Te20c</p>
+        </footer>
+
+    </div>
 </body>

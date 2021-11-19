@@ -1,127 +1,126 @@
+/* Ändrar hur hela bodyn ser ut */
 body {
     margin: 0;
-    background: linear-gradient(-29deg, #ee7752, #e73c7e, #FF66B2, #23d5ab);
-    background-size: 300% 700%;
-    animation: gradient 100s ease infinite;
+    background: linear-gradient(-29deg, #ee7752, #e73c7e, #FF66B2, #23d5ab); /* ändrar background color och säter in flera med en linear-gradient för att smälta ihop färgerna*/
+    background-size: 300% 700%; /* storleken av background color är bara viktigt för att jag har flera så kan se konstigare ut om jag ändrar */
+    animation: gradient 100s ease infinite; /* lutningen av de olika färgerna*/
 }
 
 ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-    margin-left: auto;
+    list-style-type: none; /* har ingen typ av speciel lista */
+    background-color: #333; /* backgrund färgen till listan*/
+    margin-left: auto; /* margin har jag på auto*/
     margin-right: auto;
-    max-width: 700px;
+    max-width: 700px; /* listan kan inte vara längre än 700px */
   }
   
   li {
-    display: inline-block;
-    margin-left: auto;
-    padding-top: 0px;
+    display: inline-block; /* de lådorna som vissas i listan */
+    margin-left: auto; /* margin auto för att få det i mitten */
+    padding-top: 0px; /* ingen mellanrum till kanterna*/
     padding-bottom: 0px;
-    text-align: center;
+    text-align: center; /* texten kommer i mitten av lådorna */
   }
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  li a { /* texten i listan */
+    display: block; /* de blir till*/
+    color: white; /* färgen av texten */
+    text-align: center; /* texten kommer i mitten */
+    padding: 14px 16px; /* hur mycket mellanrum det ska vara mellan backround och under texten */
+    text-decoration: none; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* textens utseende i listan */
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #111; /* när man håller över en lida i listan så blir det svart backom den */
   }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-  .pasta{ 
-    text-decoration: none;
-    font-size: 200px;
-    text-align: center;
+  .pasta{  /* class för youtube länken */
+    text-decoration: none; /* inget sträck under texten*/
+    font-size: 200px; /* storlken av texten  */
+    text-align: center; 
     color: black;
 }
 
 footer{
-    position: fixed;
-  left: 0;
+  position: fixed; /* vart footern är placerad */
+  left: 0; 
   bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
+  width: 100%; /* storleken är 100% så hela hemsidan täcks */
+  background-color: #333; /* backgrundfärgen på footern */
+  color: white; /* texten i footern */
+  text-align: center; /* texten kommer i mitten av footern*/ 
 }
 
 header{
-    left: 0;
+    left: 0; 
     top: 0;
-    width: 100%;
+    width: 100%; /* täcker hela sidan */
     background-color: #333;
-    color: white;
-    text-align: center;
+    color: white; /* textfärgen av header texten "Min hemsida" */ 
+    text-align: center; /* texten kommer i mitten*/
 }
 
 .homep{
-  font-size: 25px;
-  text-align: center;
+  font-size: 25px; /* texten i home länkens storlek */
+  text-align: center; /* kommer i mitten */
 }
 
-.img1{
-  border: 5px solid;
+/* klassen för första bilden den som länkar pasta*/
+.img1{ 
+  border: 5px solid; /* en border runt bilden */
+  position: static; /* positionen av table*/
+  display: block; 
+  margin-left: auto; /* gör så att bilden kommer i mitten*/
+  margin-right: auto; /* gör så att bilden kommer i mitten*/
+  width: 30%; /* storleken av bilden*/
+}
+
+.img2{ 
+  border: 5px solid; 
   position: static;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 100%; /* storleken av en annan bild*/
+  box-shadow: #333; /* skugga på bilden*/
 }
 
-.img2{
-  border: 5px solid;
-  position: static;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1500px;
-  box-shadow: #333;
-}
-
-table,th,td{border: 3px solid black;
+/* sätter en border runt allt i tablen */
+table,th,td{ 
+  border: 3px solid black; 
   border-collapse: collapse;
   }
   
-.table1{
+  /* Ändrar storlen i table*/
+.table1{ 
   table-layout: auto;
   width: 50%;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
+  margin-top: 10%; /* hur mycket avstånd ska finnas från toppen och table*/
 }
   
 th{
-  background-color:seashell;
+  background-color:seashell; /* Sätter en seperat backgrunds färg på th*/
 }
   
 
 tr:nth-child(odd) {
-background-color: #FF66B2;
+background-color: #FF66B2; /* all tr rader som är udda blir #FF66B2 färgen */
 }
 
 tr:nth-child(even){
-  background-color: #23d5ab;
+  background-color: #23d5ab; /* alla jämna tr rader blir #23d5ab färgen*/
 }
 
 td:nth-child(even) {
-  text-align: right;
+  text-align: right; /* alla td jämna rader får texten på höger */
 }
 
-.headerimg{
-  position: fixed;
+.headerimg{ /* bilden som vissas i headern*/
+  position: fixed; /* */
   top: 0;
   left: 0;
   height: 59px;
@@ -144,9 +143,9 @@ td:nth-child(even) {
   background: #333;
 }
 .main {
-  grid-area: main;
+  grid-area: main; $fastest gos
+
 }
-.foot {
+.foot { /* cell grid för footern */
   grid-area: footer;
-  background: #ebebeb;
 }
