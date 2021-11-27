@@ -139,12 +139,11 @@ td:nth-child(even) {
   padding: 0px;
 }
 .head {
-  grid-area: header;
+  grid-area: header; /* cell för headern*/
   background: #333;
 }
-.main {
-  grid-area: main; $fastest gos
-
+.main { /* cell för main body*/
+  grid-area: main; 
 }
 .foot { /* cell grid för footern */
   grid-area: footer;
